@@ -1,0 +1,50 @@
+.bookmark-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfdddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  
+  .bookmark-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .edit-button {
+    background-color: #5c5a52;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .edit-button:hover {
+    background-color: #aaa8a1;
+    
+  }
+  
+  .delete-button {
+    background-color: #ab3434;
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
